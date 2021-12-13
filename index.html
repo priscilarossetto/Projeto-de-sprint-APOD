@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APOD</title>
+        <link rel="icon" href="./Imagens/moon_Lunar eclipse.jfif">
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Astronomy Picture of the Day</h1>
+        </header>
+
+        <section id="inicio">
+            <p>Discover the cosmos!</p>
+            <p>Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+            <p>Current date through June 16, 1995 can be found here: </p>
+        </section>
+        
+        <main>
+            <div id="entradaData">
+                <input id="date" type="date" min="1995-06-16"/>
+                <button id="btnSubmit" type="submit" value="search">SEARCH</button>
+            </div>
+
+            <div id="infoEsperada">
+                <h1 id="titulo"></h1>
+                <div id="imagem"></div>
+                <p id="descrição"></p>
+            </div>
+        </main>
+
+        <footer>
+            Feito por &nbsp<a href="https://www.linkedin.com/in/priscilarossetto/">Priscila Rosseto</a> &nbsp- projeto Resilia Educação
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./JS/index.js"></script>
+    </body>
+</html>
